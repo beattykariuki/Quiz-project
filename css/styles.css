@@ -1,3 +1,6 @@
+*{
+    
+}
 #quiz {
     background: #d2def2;
     padding: 10px 20px 10px 20px;
@@ -61,9 +64,39 @@ input {
 }
 .Body {
     font-family: "Lato", sans-serif;
-    background-image: linear-gradient(#000000,#850085);
+    background-image: linear-gradient(#000000,#850085); 
+    
+}
+body{
+    background-color: rgb(46, 5, 46);
 }
 h1 {
     color: white;
     text-align: center;
+}
+.statement{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: oblique;
+    font-weight: bolder;
+    text-decoration:underline;
+    padding-top:40px;
+    color: white;
+}
+.intro2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    color: white;
+}
+.submit{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+
 }
