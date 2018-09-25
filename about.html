@@ -11,31 +11,67 @@
 
 
 <body>
-    <p class="statement">WELCOME TO QUIZ LAB</p>
-    <br>
-    <br>
-    <br>
-<div class="container">
+    <div class="Body">
+        <br>
+        <div class="container">
+            <div class="row">
+                <h1>Quiz lab.</h1>
 
-<div class="intro2">
-    <label for="first-name">FIRST NAME
-        <input type="first-name"  class="first-name">
-    </label>
-    <br>
-    <label for="last-name">LAST NAME
-        <input type="last-name" class="last-name">
-    </label>
-    <br>
-    <label for="phone-number">PHONE NUMBER
-        <input type="phone-number"  class="phone-number">
-    </label>
+                <div class="col-md-6">
+                    <form id="quiz" name="quiz">
+                        <p>1.what is debugging ?</p>
+                        <input id="text box" type="text" name="question1">
 
-</div>
+                        <div class="">
+                            <p>2.what computer program do people use to code?.</p>
+                            <input type="radio" id="mc" name="question2" value="0"> Hartford<br>
+                            <input type="radio" id="mc" name="question2" value="0"> Word<br>
+                            <input type="radio" id="mc" name="question2" value="20"> Visual code<br>
+                            <input type="radio" id="mc" name="question2" value="0"> Office<br>
+                        </div>
 
-    <div class="submit">
-        <button type="submit" value="submit" class="submit" id="submit"><a href="index.html">submit</a></button>
+                        <div>
+                            <p>3.what are Javascript Data types?</p>
+                            <input type="radio" id="mc" name="question3" value="20"> String<br>
+                            <input type="radio" id="mc" name="question3" value="0"> Arrays<br>
+                            <input type="radio" id="mc" name="question3" value="0"> Boostrap<br>
+                            <input type="radio" id="mc" name="question3" value="0"> Method<br>
+                        </div>
+
+                        <div>
+                            <p>4.which company developed Javascript</p>
+                            <input type="radio" id="mc" name="question4" value="0"> Apple<br>
+                            <input type="radio" id="mc" name="question4" value="0"> Dell technologies<br>
+                            <input type="radio" id="mc" name="question4" value="0"> hp inc<br>
+                            <input type="radio" id="mc" name="question4" value="20"> Netscape<br>
+                        </div>
+
+                        <div>
+                            <p>5.which symbol is used for comments in javascript</p>
+                            <input type="radio" id="mc" name="question5" value="20"> //<br>
+                            <input type="radio" id="mc" name="question5" value="0"> *//<br>
+                            <input type="radio" id="mc" name="question5" value="0"> #<br>
+                            <input type="radio" id="mc" name="question5" value="0"> $<br>
+                        </div>
+
+                        <div>
+                            <input id="button" type="button" value="I'm finished!" onclick="check()">
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-md-6" id="after_submit">
+
+                    <p id="message"></p>
+                    <p id="number_correct"></p>
+                </div>THOMO
+
+                <script>src = "jquery-3.3.1.min.map"</script>
+                <script src="js/scripts.js"></script>
+            </div>
+        </div>
     </div>
-</div>
-
 </body>
+
 </html>
